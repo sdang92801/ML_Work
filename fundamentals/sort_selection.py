@@ -1,5 +1,5 @@
 def sortselection(a):
-    for run in range(len(a)):
+    for z in range(len(a)):
         for x in range(len(a)):
             counter = 0
             for y in range(x,len(a)):
