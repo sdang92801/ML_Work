@@ -159,11 +159,10 @@ as she had already imbibed a good deal of Marianne's romance, without
 having much of her sense, she did not, at thirteen, bid fair to equal
 her sisters at a more advanced period of life.
 """
-a = a.strip("'").strip('\n')
-print(a)
-unique=(set(a.split(' ')))
-for x in unique:
-    print(x, a.count(x))
-
+# a = a.strip("'").strip('\n')
+# print(a)
+# unique=(set(a.split(' ')))
+# for x in unique:
+#     print(x, a.count(x))
 
 

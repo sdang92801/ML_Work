@@ -1,12 +1,13 @@
+
 # Coding challenge 1: Digit Sum
 
-def digit_sum():
-    a= list(input('Enter a number:'))
-    sum = 0
-    for x in a:
-        sum+=int(x)
-    print(sum)
-digit_sum()
+# def digit_sum():
+#     a= list(input('Enter a number:'))
+#     sum = 0
+#     for x in a:
+#         sum+=int(x)
+#     print(sum)
+# digit_sum()
 
 # Coding challenge 2: Find Primes
 
