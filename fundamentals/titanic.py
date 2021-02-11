@@ -8,4 +8,4 @@ survive_fare=df['Fare']<10
 print(survive_fare.mean())
 print(df.loc[~survive,:]['Age'].mean())
 print(df.loc[survive,:]['Age'].mean())
-print(df.groupby(['Sex']).mean())
+print(df.groupby(['Sex'])['Age'].mean())
