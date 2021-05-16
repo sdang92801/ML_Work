@@ -1,4 +1,4 @@
-a = """SENSE AND SENSIBILITY
+text='''SENSE AND SENSIBILITY
 
 by Jane Austen
 
@@ -157,12 +157,14 @@ exertion, and encourage her to similar forbearance.
 Margaret, the other sister, was a good-humored, well-disposed girl; but
 as she had already imbibed a good deal of Marianne's romance, without
 having much of her sense, she did not, at thirteen, bid fair to equal
-her sisters at a more advanced period of life.
-"""
-# a = a.strip("'").strip('\n')
-# print(a)
-# unique=(set(a.split(' ')))
-# for x in unique:
-#     print(x, a.count(x))
+her sisters at a more advanced period of life.'''
 
+split_text=text.split()
+counts=dict()
 
+for word in split_text:
+    if word in counts:
+        counts[word]+=1
+    else:
+        counts[word]=1
+print(counts)
