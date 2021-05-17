@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from operator import truediv
 import seaborn as sns
-df=pd.read_csv(r"C:\Users\Employee\Downloads\sales_predictions.csv")
+df=pd.read_csv(r"ML_Work\Assignments\Files\sales_predictions.csv")
 print(df.info())
 print(df.head())
 df['Item_Outlet_Sales']=df['Item_Outlet_Sales'].astype('int64')

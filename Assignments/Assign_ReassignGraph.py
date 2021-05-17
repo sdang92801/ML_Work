@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-df=pd.read_csv(r'C:\Users\Employee\Downloads\mortgages.csv')
+df=pd.read_csv(r'ML_Work\Assignments\Files\mortgages.csv')
 print(df.head())
 print(df.info())
 print(df['Interest Rate'].value_counts())

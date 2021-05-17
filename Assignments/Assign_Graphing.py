@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df=pd.read_excel(r"C:\Users\Employee\Downloads\Week 43.xlsx")
+df=pd.read_excel(r"ML_Work\Assignments\Files\Week 43.xlsx")
 print(df.head())
 print(df.info())
 print(df['Country'].value_counts())

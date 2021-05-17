@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df=pd.read_csv(r"C:\Users\Employee\Downloads\literacy_rates.csv")
+df=pd.read_csv(r"ML_Work\Assignments\Files\literacy_rates.csv")
 print(df.info())
 print(df.shape)
 print(df.head())

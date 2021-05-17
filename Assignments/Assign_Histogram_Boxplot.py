@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-df=pd.read_excel(r"C:\Users\Employee\Downloads\catsvdogs.xlsx")
+df=pd.read_excel(r"ML_Work\Assignments\Files\catsvdogs.xlsx")
 print(df.head())
 print(df.info())
 df['Percentage of Dog Owners'].hist(bins=30,label='Dogs',edgecolor='black')

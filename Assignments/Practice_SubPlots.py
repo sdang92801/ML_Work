@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-df=pd.read_csv(r"C:\Users\Employee\Downloads\linearWithWithout.csv")
+df=pd.read_csv(r"ML_Work\Assignments\Files\linearWithWithout.csv")
 print(df.head())
 intercept_filter=df['intercept']==True
 df_intercept=df.loc[intercept_filter,:]

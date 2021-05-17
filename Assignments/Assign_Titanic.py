@@ -1,5 +1,5 @@
 import pandas as pd
-df=pd.read_csv(r'C:\Users\Employee\Downloads\titanic.csv')
+df=pd.read_csv(r'ML_Work\Assignments\Files\titanic.csv')
 print(df.head())
 print(df.dtypes)
 #Survival %

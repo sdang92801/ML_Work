@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as py
-df=pd.read_csv(r"C:\Users\Employee\Downloads\athleteEventsNoPersonal.csv")
+df=pd.read_csv(r"ML_Work\Assignments\Files\athleteEventsNoPersonal.csv")
 print(df.head())
 print(df.info())
 print(df.isnull().sum())

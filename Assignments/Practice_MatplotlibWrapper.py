@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df=pd.read_csv(r"C:\Users\Employee\Downloads\athleteEventsNoPersonal.csv")
+df=pd.read_csv(r"ML_Work\Assignments\Files\athleteEventsNoPersonal.csv")
 print(df.head())
 yearfilter=df['Year']== 2016
 top20=df.loc[yearfilter,:].groupby(['NOC'])['Height'].mean().sort_values(ascending=False).head(20)

@@ -1,5 +1,5 @@
 import pandas as pd
-df=pd.ExcelFile(r'C:\Users\Employee\Downloads\RailsToTrails.xlsx')
+df=pd.ExcelFile(r'ML_Work\Assignments\Files\RailsToTrails.xlsx')
 bike_df=pd.read_excel(df,'Bike Counts (14 counters)')
 totalCount_df=pd.read_excel(df,'Total Count data (31 counters)')
 print(bike_df.info())

@@ -3,7 +3,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df=pd.read_csv(r"C:\Users\Employee\Downloads\hotel_bookings.csv")
+df=pd.read_csv(r"ML_Work\Assignments\Files\hotel_bookings.csv")
 print(df.info())
 print(df.shape)
 print(df.isnull().sum())
