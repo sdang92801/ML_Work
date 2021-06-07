@@ -1,0 +1,3 @@
+Bias models are built the model is over simplified and result in high error on the data set
+
+Variance models are those where lot if importance is given to the training data set and the model is overfitted
