@@ -18,7 +18,7 @@ from rfpimp import permutation_importances
 import numpy as np
 from sklearn import metrics
 
-df=pd.read_csv(r"ML_Work\Assignments\Files\sales_predictions.csv")
+df=pd.read_csv(r"sales_prediction\sales_predictions.csv")
 print(df.info())
 print(df.head())
 
@@ -150,9 +150,10 @@ print('Mean Absolute Error:', metrics.mean_absolute_error(y_test, y_pred))
 print('Mean Squared Error:', metrics.mean_squared_error(y_test, y_pred))
 print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
 
-# plt.figure(figsize=(8,4))
-# plt.plot(plt_x,df['Actual'],c='r')
-# plt.show()
+plt.figure(figsize=(8,4))
+sns.regplot(plt_x,'Actual')
+plt.scatter(plt_x,df['Actual'],c='r')
+plt.show()
 # print('Random OOB Score : ', clf.oob_score_)
 
 
