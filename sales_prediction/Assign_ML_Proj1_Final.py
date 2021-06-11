@@ -177,17 +177,17 @@ print('Linear Test: ',score_test)
 
 # Feature Importance
 
-# def r2(rf, X_train, y_train):
-#     return r2_score(y_train, rf.predict(X_train))
+def r2(rf, X_train, y_train):
+    return r2_score(y_train, rf.predict(X_train))
 
-# perm_imp_rfpimp = permutation_importances(clf, X_train, y_train, r2)
+perm_imp_rfpimp = permutation_importances(clf, X_train, y_train, r2)
 
-# print(perm_imp_rfpimp)
-# x_values=list(range(len(perm_imp_rfpimp)))
-# plt.bar(x_values,perm_imp_rfpimp['Importance'], orientation = 'vertical')
-# plt.xticks(x_values,perm_imp_rfpimp.index,rotation='vertical')
-# plt.title('Feature Importance')
-# plt.show()
+print(perm_imp_rfpimp)
+x_values=list(range(len(perm_imp_rfpimp)))
+plt.bar(x_values,perm_imp_rfpimp['Importance'], orientation = 'vertical')
+plt.xticks(x_values,perm_imp_rfpimp.index,rotation='vertical')
+plt.title('Feature Importance')
+plt.show()
 
 #Grid Search
 
