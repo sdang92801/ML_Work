@@ -8,3 +8,6 @@ no_height=df['Height'].isnull()
 df=df.loc[~no_height,:]
 print(df.isnull().sum())
 print(df.groupby(['ID'])[['Height']].mean())
+
+
+####
