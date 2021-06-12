@@ -10,4 +10,3 @@ print(df.isnull().sum())
 print(df.groupby(['ID'])[['Height']].mean())
 
 
-####
