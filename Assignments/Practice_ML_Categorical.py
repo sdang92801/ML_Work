@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.neighbors import KNeighborsRegressor, KNeighborsClassifier
 
 
-df=pd.read_csv(r"ML_Work\Assignments\Files\ta_evals.csv")
+df=pd.read_csv(r"Assignments\Files\ta_evals.csv")
 print(df.head())
 print(df.isnull().sum())
 print(df.info())
